@@ -1,0 +1,10 @@
+#!/bin/bash -e
+
+echo "Build application."
+
+mix local.hex --force
+mix deps.get
+mix deps.compile
+mix compile
+
+echo "Done."

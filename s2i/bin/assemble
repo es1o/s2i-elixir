@@ -1,7 +1,12 @@
 #!/bin/bash -e
 
+echo "Copy application sources."
+
+cp -Rf /tmp/src/. ./
+
 echo "Build application."
 
+export LANG=en_US.utf8
 mix local.hex --force
 mix deps.get
 mix deps.compile

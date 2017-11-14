@@ -8,6 +8,7 @@ echo "Build application."
 
 export LANG=en_US.utf8
 mix local.hex --force
+mix local.rebar --force
 mix deps.get
 mix deps.compile
 mix compile

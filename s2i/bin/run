@@ -1,0 +1,4 @@
+#!/bin/bash -e
+
+echo "Run elixir application."
+iex -S mix run`

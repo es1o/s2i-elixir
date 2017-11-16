@@ -13,7 +13,7 @@ spec:
         sampleRepo: https://github.com/es1o/s2i-elixir.git
       from:
         kind: DockerImage
-        name: 'es1o/s2i-elixir:1.5.2-3'
+        name: 'es1o/s2i-elixir:1.4'
       importPolicy: {}
       name: '1.5'
       referencePolicy:

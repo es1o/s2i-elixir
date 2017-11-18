@@ -1,4 +1,5 @@
 #!/bin/bash -e
 
 echo "Run elixir application."
+export LANG=en_US.utf8
 iex -S mix run

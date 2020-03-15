@@ -1,4 +1,4 @@
-FROM elixir:1.9.4-slim
+FROM elixir:1.10.2-slim
 
 LABEL io.k8s.description="Platform for building and running a elixir app" \
       io.k8s.display-name="build-elixir" \
